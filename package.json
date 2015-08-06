@@ -1,0 +1,29 @@
+{
+  "name": "jstransformer-bless",
+  "version": "0.0.0",
+  "description": "BlessCSS support for JSTransformers.",
+  "keywords": [
+    "bless",
+    "blesscss",
+    "css",
+    "ie",
+    "internetexplorer",
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "repository": "jstransformers/jstransformer-bless",
+  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
+  "license": "MIT",
+  "dependencies": {
+    "bless": "^4.0.0-alpha.0"
+  }
+}
