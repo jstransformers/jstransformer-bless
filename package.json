@@ -14,7 +14,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "bluebird": "^3.0.5",
+    "bluebird": "^3.2.2",
     "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback"
   },
   "scripts": {
