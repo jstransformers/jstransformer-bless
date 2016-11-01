@@ -21,10 +21,19 @@
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
   },
-  "repository": "jstransformers/jstransformer-bless",
-  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
-  "license": "MIT",
   "dependencies": {
     "bless": "^4.0.0-alpha.0"
-  }
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-bless.git"
+  },
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
