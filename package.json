@@ -15,11 +15,13 @@
   ],
   "devDependencies": {
     "bluebird": "^3.0.5",
-    "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback"
+    "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback",
+    "xo": "^0.15.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
-    "test": "test-jstransformer"
+    "test": "test-jstransformer",
+    "posttest": "xo --space --no-semicolon index.js"
   },
   "dependencies": {
     "bless": "^4.0.0-alpha.0"
