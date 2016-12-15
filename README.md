@@ -1,6 +1,6 @@
 # jstransformer-bless
 
-[bless](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
+[Bless](http://blesscss.com/) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-bless/master.svg)](https://travis-ci.org/jstransformers/jstransformer-bless)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-bless/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-bless)
