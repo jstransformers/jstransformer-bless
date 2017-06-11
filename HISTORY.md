@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0: 2017-06-11
+## 0.3.0: 2017-06-11
 
 - Updated Boilerplate
 
