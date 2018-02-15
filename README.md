@@ -17,7 +17,7 @@
 > For more use-cases see the **tests** in [test folder](./test) or see the [JSTransformer API](http://github.com/jstransformers/jstransformer#api) for more details.
 
 ```js
-var bless = require('jstransformer')(require('jstransformer-bless'));
+var bless = require('jstransformer')(require('jstransformer-bless'))
 
 bless.render('str', options).body
 bless.renderFileAsync('./path/to/huge/file.css', options).then(console.log)
