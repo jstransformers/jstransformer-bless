@@ -1,30 +1,26 @@
 {
+  "dependencies": {
+    "bless": "^4.0.4"
+  },
   "name": "jstransformer-bless",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "BlessCSS support for JSTransformers.",
   "keywords": [
     "bless",
     "blesscss",
-    "css",
-    "ie",
-    "internetexplorer",
     "jstransformer"
   ],
   "files": [
     "index.js"
   ],
   "devDependencies": {
-    "bluebird": "^3.0.5",
-    "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback",
+    "test-jstransformer": "^1.0.0",
     "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
-    "posttest": "xo --space --no-semicolon index.js"
-  },
-  "dependencies": {
-    "bless": "^4.0.0-alpha.0"
+    "posttest": "xo --space=2 --no-semicolon index.js"
   },
   "engines": {
     "node": ">=4"
