@@ -1,6 +1,9 @@
 {
+  "dependencies": {
+    "bless": "^4.0.4"
+  },
   "name": "jstransformer-bless",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "BlessCSS support for JSTransformers.",
   "keywords": [
     "bless",
@@ -18,9 +21,6 @@
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer",
     "posttest": "xo --space=2 --no-semicolon index.js"
-  },
-  "dependencies": {
-    "bless": "^4.0.0-alpha.0"
   },
   "engines": {
     "node": ">=4"

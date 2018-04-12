@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0: Unreleased
+
+- Updated dependencies
+
 ## 0.3.0: 2017-06-11
 
 - Updated Boilerplate
